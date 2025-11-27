@@ -1,0 +1,9 @@
+Q1/train/
+Q1/test/
+Q1/internet/
+Q2/mnist_train.csv
+Q2/mnist_test.csv
+*.jpg
+*.png
+*.jpeg
+*.csv
