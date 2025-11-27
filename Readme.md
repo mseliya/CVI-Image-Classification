@@ -39,7 +39,7 @@ I selected **SVC + HOG features** because it performed the best and produced sta
 
 In the `Q1` folder:
 
-````bash
+```bash
 python Q1.py
 
 Q1/
@@ -51,16 +51,19 @@ Q1/
  │     └── dog/
  └── internet/
 
+```
 
 ## 🔢 Q2 – MNIST Handwritten Digit Classification
 
 ### 📌 Overview
+
 Q2 uses the MNIST dataset, provided as CSV files containing flattened **28×28 pixel grayscale images**.
 The goal was to classify digits from **0 to 9** and achieve at least **90% accuracy**.
 
 ---
 
 ### 🧪 Methods Used
+
 I trained and compared the following models:
 
 - **Logistic Regression**
@@ -70,10 +73,10 @@ I trained and compared the following models:
 
 ### 📊 Final Accuracy
 
-| Model                | Accuracy |
-|----------------------|----------|
-| Logistic Regression  | 92.6%    |
-| MLP Neural Network   | **98.1%** |
+| Model               | Accuracy  |
+| ------------------- | --------- |
+| Logistic Regression | 92.6%     |
+| MLP Neural Network  | **98.1%** |
 
 Both models exceeded the 90% requirement, with the **MLP neural network performing the best**.
 
@@ -86,8 +89,8 @@ Inside the `Q2` folder, run:
 ```bash
 python Q2.py
 
-
 Q2/
  ├── mnist_train.csv
  └── mnist_test.csv
-````
+
+```
